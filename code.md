@@ -4,8 +4,8 @@ title: Code
 permalink: /code/
 ---
 
-rgbtransform.m
-```matlab
+### rgbtransform.m
+```python
 Message = 'Type in the Message here: hello TJ. Jong is here!';
 Image = im2double(catc);
 
@@ -32,8 +32,8 @@ imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
 
 
 
-dctransform.m
-```matlab
+### dctransform.m
+```python
 function t_img = dctransform(image_in, message)
 
 % % %DCT transform, shift
@@ -85,8 +85,8 @@ end
 
 
 
-rgbitransform.m
-```matlab
+### rgbitransform.m
+```python
 Irgbt = finalimg; %transformed image
 
 Irt = Irgbt(:,:,1)*255;
@@ -100,8 +100,8 @@ idctransform(Ibt)
 
 
 
-icdtransform.m
-```matlab
+### icdtransform.m
+```python
 function idctransform(It)
 
 D2 = dct2(It); 
