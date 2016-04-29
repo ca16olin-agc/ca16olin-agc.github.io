@@ -14,7 +14,7 @@ Below are the images equivalent to Delta, Cosine, Sinc, and Box functions. To br
 
 Taking the fourier transform of those images result in images which are two dimensional equivalent of the fourier transform pairs for the Delta, Cosine, Sinc and Box functions. 
 
-![name]({{ site.baseurl }}/images/~.jpg "name")
+![Fourier Transform pairs in Two Dimensions]({{ site.baseurl }}/images/fourier_transform_pair.PNG "Fourier Transform Pairs in Two Dimensions")
 
 The fourier transform pair of the:
 
@@ -37,7 +37,7 @@ Low pass filter keeps only the low frequency component of the image (mid-section
 Image that went through low pass filter blurs the image, which is the "general trend" of the image contour.
 On the other hand, the high pass filter works like an edge detector. (Edge = sharp transition of the pixel values = high frequency component)
 
-![name]({{ site.baseurl }}/images/~.jpg "name")
+![Image Filtering]({{ site.baseurl }}/images/fourier_filter.png "Image Filtering")
 
 
 ### Members
