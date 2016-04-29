@@ -3,64 +3,37 @@ layout: page
 title: Code
 permalink: /code/
 ---
-### How to use the matlab code?
 
-#### Encoding
-1. Import an image
-2. Write the message you want to encode in the variable Message in rgbtransform.m
-3. run rgbtransform.m
+rgbtransform.m
+```matlab
+Message = 'Type in the Message here: hello TJ. Jong is here!';
+Image = im2double(catc);
 
-#### Decoding
-1. Import the encoded image
-2. run rgbitransform.m
-
-
-
-### rgbtransform.m
-1. Type in the message we want to hide and import image
-2. Divides the 3D Image Matrice into 3 2D Matrices, where each matrice correspond to the R,G,B of the Image
-3. Divides the message into 3 parts
-4. Run the dctransform code to hide messages in each images
-5. Combine the 3 images to form one RGB Image and saves the file
-
-```python
-
-Message = 'Type in the message here:';
-Image = catc;
-
-Ir = Image(:,:,1);
-Ig = Image(:,:,2);
-Ib = Image(:,:,3);
+Ir = catc(:,:,1);
+Ig = catc(:,:,2);
+Ib = catc(:,:,3);
 
 Mlen = length(Message);
 Messager = Message(1:round(Mlen/3));
 Messageg = Message(round(Mlen/3)+1:round(2*Mlen/3));
 Messageb = Message(round(2*Mlen/3)+1:Mlen);
 
-tIr = dctransform(Ir, Messager)/255;
-tIg = dctransform(Ig, Messageg)/255;
-tIb = dctransform(Ib, Messageb)/255;
+tIr = dctransform(Ir, Messager);
+tIg = dctransform(Ig, Messageg);
+tIb = dctransform(Ib, Messageb);
 
-finalimg = cat(3,tIr,tIg,tIb);
+finalimg = cat(3,tIr/255,tIg/255,tIb/255);
 
-subplot(2,2,1); imshow(cat(3,Ir,Ig,Ib))
-subplot(2,2,2); imshow(finalimg)
+subplot(2,2,1); image(cat(3,Ir,Ig,Ib))
+subplot(2,2,2); image(finalimg)
 
-% imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
+imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
 ```
 
 
 
-### dctransform.m
-1. Discrete Cosine Transform (DCT)
-2. Fast Fourier Transform Shift (FFTshift)
-3. Hide message length in the middle
-4. Encode message in the hiding region
-5. Inverse FFTshift
-6. Inverse DCT
-7. Return ecoded image
-
-```python
+dctransform.m
+```matlab
 function t_img = dctransform(image_in, message)
 
 % % %DCT transform, shift
@@ -69,7 +42,7 @@ Ds = fftshift(D); %make center low freq
 
 % % %plot
 % subplot(2,2,1);image(image_in);
-% subplot(2,2,3);imshow(log(abs(Ds)),[]);
+% subplot(2,2,2);imagesc(log(abs(Ds)));
 
 [M N] = size(D); 
 ci = round(M/2)+1; 
@@ -106,19 +79,14 @@ t_img = idct2(ifftshift(Ds));
 
 % % %plot tranformed
 % subplot(2,2,3);image(t_img);
-% subplot(2,2,4);imshow(log(abs(Ds)),[]);
+% subplot(2,2,4);imagesc(log(abs(Ds)));
 end
 ```
 
 
 
-### rgbitransform.m
-1. Import encoded message
-2. Divides the 3D image matrice into 3 2D matrices, where each matrice correspond to the R,G,B of the image
-3. Run the idctransform code to decode messages in each images
-5. Combine the 3 decoded messages to get the message
-
-```python
+rgbitransform.m
+```matlab
 Irgbt = finalimg; %transformed image
 
 Irt = Irgbt(:,:,1)*255;
@@ -132,13 +100,8 @@ idctransform(Ibt)
 
 
 
-### icdtransform.m
-1. DCT
-2. FFTshift
-3. Get the length of the message encoded in the middle
-4. Print the message decoded from the hiding region
-
-```python
+icdtransform.m
+```matlab
 function idctransform(It)
 
 D2 = dct2(It); 
@@ -156,7 +119,6 @@ hr2 = round(M2/3);
 
 m2 = 1;
 r2 = 0;
-music = [];
 for (i=1:hr2)
     for (j=1:hr2)
         r2 = sqrt(i*i + j*j);
@@ -167,6 +129,7 @@ for (i=1:hr2)
             end; 
         end; 
     end; 
-end
+end;
+
 end
 ```
