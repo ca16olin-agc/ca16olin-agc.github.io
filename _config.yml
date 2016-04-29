@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Olin Data Science Course Finder
+name: Signals and Systems: Steganography
 
 # Short bio or description (displayed in the header)
-description: A tool to help Olin students register for classes
+description: Olin College SP 16 Final Project
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://www.parchment.com/c/images/college/1743-crest-250-200-219180101beadea2280ac0528953715c.png
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: OlinDataScienceCourseFinder/OlinDataScienceCourseFinder.github.io
+  github: sigsys16steganography/sigsys16steganography.github.io
   instagram:
   linkedin:
   pinterest:
