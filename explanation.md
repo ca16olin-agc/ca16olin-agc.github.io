@@ -5,6 +5,8 @@ permalink: /explanation/
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+![Flow Chart]({{ site.baseurl }}/images/exp_flowchart.PNG "Flow Chart")
+
 ### Discrete Cosine Transform (DCT)
 * Convert signal into elementary frequency components
 * Similar to discrete Fourier Transform using only real numbers
