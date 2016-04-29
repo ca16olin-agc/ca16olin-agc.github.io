@@ -10,7 +10,7 @@ We are a team of students at Franklin W. Olin College of Engineering. We wanted 
 
 ## Members
 <a href="https://github.com/njw0709">
-<img src="https://avatars2.githubusercontent.com/u/9983996?v=3&s=400" width="5" height="5" border="0"></a>
+<img src="https://avatars2.githubusercontent.com/u/9983996?v=3&s=400" width="20" height="20" border="0"></a>
 Jee Hyun Kim
 TJ Kim
 
