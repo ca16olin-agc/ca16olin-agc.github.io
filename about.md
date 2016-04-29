@@ -20,6 +20,7 @@ TJ Kim
 [4] https://www.cs.cf.ac.uk/Dave/Multimedia/node231.html
 [5] http://www.robots.ox.ac.uk/~az/lectures/ia/lect2.pdf
 [6] http://vision.arc.nasa.gov/publications/mathjournal94.pdf
+[7] https://en.wikipedia.org/wiki/Discrete_Fourier_transform
 
 ### Images
 - http://www.metamute.org/sites/www.metamute.org/files/u17/page1a.jpg
