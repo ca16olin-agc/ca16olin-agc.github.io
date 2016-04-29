@@ -3,12 +3,24 @@ layout: page
 title: Code
 permalink: /code/
 ---
+## How to use the code?
+### Encoding
+1. Import an image
+2. Write the message you want to encode in the variable Message in rgbtransform.m
+3. run rgbtransform.m
+
+### Decoding
+1. Import the encoded image
+2. run rgbitransform.m
+
+
 
 ### rgbtransform.m
-1. Divides the 3D Image Matrice into 3 2D Matrices, where each matrice correspond to the R,G,B of the Image
-2. Divides the message into 3 parts
-3. Run the dctransform code to hide messages in each images
-4. Combine the 3 images to form one RGB Image and saves the file
+1. Type in the message we want to hide and import image
+2. Divides the 3D Image Matrice into 3 2D Matrices, where each matrice correspond to the R,G,B of the Image
+3. Divides the message into 3 parts
+4. Run the dctransform code to hide messages in each images
+5. Combine the 3 images to form one RGB Image and saves the file
 
 ```python
 
@@ -30,8 +42,8 @@ tIb = dctransform(Ib, Messageb)/255;
 
 finalimg = cat(3,tIr,tIg,tIb);
 
-subplot(2,2,1); image(cat(3,Ir,Ig,Ib))
-subplot(2,2,2); image(finalimg)
+subplot(2,2,1); imshow(cat(3,Ir,Ig,Ib))
+subplot(2,2,2); imshow(finalimg)
 
 % imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
 ```
@@ -39,6 +51,14 @@ subplot(2,2,2); image(finalimg)
 
 
 ### dctransform.m
+1. Discrete Cosine Transform (DCT)
+2. Fast Fourier Transform Shift (FFTshift)
+3. Hide message length in the middle
+4. Encode message in the hiding region
+5. Inverse FFTshift
+6. Inverse DCT
+7. Return ecoded image
+
 ```python
 function t_img = dctransform(image_in, message)
 
@@ -92,6 +112,11 @@ end
 
 
 ### rgbitransform.m
+1. Import encoded message
+2. Divides the 3D image matrice into 3 2D matrices, where each matrice correspond to the R,G,B of the image
+3. Run the idctransform code to decode messages in each images
+5. Combine the 3 decoded messages to get the message
+
 ```python
 Irgbt = finalimg; %transformed image
 
@@ -107,6 +132,11 @@ idctransform(Ibt)
 
 
 ### icdtransform.m
+1. DCT
+2. FFTshift
+3. Get the length of the message encoded in the middle
+4. Print the message decoded from the hiding region
+
 ```python
 function idctransform(It)
 
