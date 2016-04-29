@@ -3,6 +3,7 @@ layout: page
 title: How does it work?
 permalink: /explanation/
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ### Discrete Cosine Transform (DCT)
 * Convert signal into elementary frequency components
@@ -11,12 +12,11 @@ permalink: /explanation/
 * Can approximate lines well with fewer coefficients
 
 #### DCT II
-'''tex
-\[X_k =
- \sum_{n=0}^{N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}\right) k \right] \quad \quad k = 0, \dots, N-1\]
+\\[X_k =
+ \sum_{n=0}^{N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}\right) k \right] \quad \quad k = 0, \dots, N-1\\]
 
- In matlab, x0 is multiplied by \[1/√2\] and the resulting matrix is multiplied by scale factor of \[\sqrt{2/N}\] to make the matrix orthogonal for normalization. [7]
- '''
+ In matlab, x0 is multiplied by $$1/√2$$ and the resulting matrix is multiplied by scale factor of $$\sqrt{2/N}$$ to make the matrix orthogonal for normalization. [7]
+
 
 #### Why DCT?
 <img src="{{ site.baseurl }}/images/dctvsfft.gif">
