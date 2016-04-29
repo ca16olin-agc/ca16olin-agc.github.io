@@ -10,9 +10,14 @@ We are a team of students at Franklin W. Olin College of Engineering. We wanted 
 
 ## Members
 <a href="https://github.com/njw0709">
-<img src="https://avatars2.githubusercontent.com/u/9983996?v=3&s=400" width="20" height="20" border="0"></a>
-Jee Hyun Kim
-TJ Kim
+<img src="https://avatars2.githubusercontent.com/u/9983996?v=3&s=400" width="50" height="50" border="0"></a>
+
+<a href="https://github.com/cielocean/">
+<img src="https://avatars2.githubusercontent.com/u/10675402?v=3&s=140" width="50" height="50" border="0">Jee Hyun Kim</a>
+
+<a href="https://github.com/tj-kim">
+<img src="https://avatars2.githubusercontent.com/u/15219241?v=3&s=400" width="50" height="50" border="0"></a>
+
 
 ## Works Cited
 1. http://www.webopedia.com/TERM/S/steganography.html
