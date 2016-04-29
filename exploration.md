@@ -37,10 +37,4 @@ Low pass filter keeps only the low frequency component of the image (mid-section
 Image that went through low pass filter blurs the image, which is the "general trend" of the image contour.
 On the other hand, the high pass filter works like an edge detector. (Edge = sharp transition of the pixel values = high frequency component)
 
-![Image Filtering]({{ site.baseurl }}/images/fourier_filter.png "Image Filtering")
-
-
-### Members
-Jong Woo Nam
-Jee Hyun Kim
-TJ Kim
+![Image Filtering]({{ site.baseurl }}/images/fourier_filter.PNG "Image Filtering")
