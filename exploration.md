@@ -4,7 +4,7 @@ title: Image Processing
 permalink: /image_processing/
 ---
 
-##Image as Two Dimensional Signals
+###Image as Two Dimensional Signals
 
 Images can be thought of as discrete two dimensional signals, which are linear combinations of eigenfunctions (cosine, sine, or complex exponentials). Thus, taking discrete fourier transform of an image can be thought of as putting together the coefficients of the eigenfunctions on each row and each column. Images can be altered using the similar techniques used for one dimensional signals. That is, taking fourier transformation, altering the signal in frequency domain, and taking inverse fourier transform.
 
