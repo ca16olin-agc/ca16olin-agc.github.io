@@ -3,14 +3,14 @@ layout: page
 title: Code
 permalink: /code/
 ---
-# How to use the matlab code?
+### How to use the matlab code?
 
-## Encoding
+#### Encoding
 1. Import an image
 2. Write the message you want to encode in the variable Message in rgbtransform.m
 3. run rgbtransform.m
 
-## Decoding
+#### Decoding
 1. Import the encoded image
 2. run rgbitransform.m
 
