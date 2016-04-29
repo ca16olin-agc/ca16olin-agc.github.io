@@ -9,7 +9,9 @@ permalink: /about/
 We are a team of students at Franklin W. Olin College of Engineering. We wanted to let students at our school have a simpler time what steganography was and developed this website as an informative tool.
 
 ## Members
-Jong Woo Nam
+<a href="https://github.com/njw0709">
+<img src="https://avatars2.githubusercontent.com/u/9983996?v=3&s=400" alt="Go to W3Schools!" width="5" height="5" border="0">Jong Woo Nam
+</a>
 Jee Hyun Kim
 TJ Kim
 
