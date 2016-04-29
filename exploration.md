@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Exploration
-permalink: /exploration/
+title: Image Processing
+permalink: /image_processing/
 ---
 
 ### Fourier Transform Pair in Images
