@@ -5,29 +5,35 @@ permalink: /code/
 ---
 
 ### rgbtransform.m
-```python
-Message = 'Type in the Message here: hello TJ. Jong is here!';
-Image = im2double(catc);
+1. Divides the 3D Image Matrice into 3 2D Matrices, where each matrice correspond to the R,G,B of the Image
+2. Divides the message into 3 parts
+3. Run the dctransform code to hide messages in each images
+4. Combine the 3 images to form one RGB Image and saves the file
 
-Ir = catc(:,:,1);
-Ig = catc(:,:,2);
-Ib = catc(:,:,3);
+```python
+
+Message = 'Type in the message here:';
+Image = catc;
+
+Ir = Image(:,:,1);
+Ig = Image(:,:,2);
+Ib = Image(:,:,3);
 
 Mlen = length(Message);
 Messager = Message(1:round(Mlen/3));
 Messageg = Message(round(Mlen/3)+1:round(2*Mlen/3));
 Messageb = Message(round(2*Mlen/3)+1:Mlen);
 
-tIr = dctransform(Ir, Messager);
-tIg = dctransform(Ig, Messageg);
-tIb = dctransform(Ib, Messageb);
+tIr = dctransform(Ir, Messager)/255;
+tIg = dctransform(Ig, Messageg)/255;
+tIb = dctransform(Ib, Messageb)/255;
 
-finalimg = cat(3,tIr/255,tIg/255,tIb/255);
+finalimg = cat(3,tIr,tIg,tIb);
 
 subplot(2,2,1); image(cat(3,Ir,Ig,Ib))
 subplot(2,2,2); image(finalimg)
 
-imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
+% imwrite(finalimg, 'C:\Users\jkim2\Documents\SigSys\Final Project\fftimage.jpg')
 ```
 
 
@@ -42,7 +48,7 @@ Ds = fftshift(D); %make center low freq
 
 % % %plot
 % subplot(2,2,1);image(image_in);
-% subplot(2,2,2);imagesc(log(abs(Ds)));
+% subplot(2,2,3);imshow(log(abs(Ds)),[]);
 
 [M N] = size(D); 
 ci = round(M/2)+1; 
@@ -79,7 +85,7 @@ t_img = idct2(ifftshift(Ds));
 
 % % %plot tranformed
 % subplot(2,2,3);image(t_img);
-% subplot(2,2,4);imagesc(log(abs(Ds)));
+% subplot(2,2,4);imshow(log(abs(Ds)),[]);
 end
 ```
 
@@ -119,6 +125,7 @@ hr2 = round(M2/3);
 
 m2 = 1;
 r2 = 0;
+music = [];
 for (i=1:hr2)
     for (j=1:hr2)
         r2 = sqrt(i*i + j*j);
@@ -129,7 +136,6 @@ for (i=1:hr2)
             end; 
         end; 
     end; 
-end;
-
+end
 end
 ```
