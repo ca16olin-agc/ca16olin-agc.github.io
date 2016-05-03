@@ -2,26 +2,24 @@
 layout: default
 ---
 <div>
-
-<p>
-<embed width="420" height="315"
+	<iframe width="630" height="370"
 src="https://youtu.be/ekvaqrEsEK0">
-<em>An Introductory Video Overviewing our Project Topic</em>
-</p>
-
+</iframe>
 	<h2>An Introduction: Steganography</h2>
 	
-	<p>Steganography is the art and science of hiding information by embedding messages within other medium, such as an image, video, song, and so forth. Steganography has been used since times of Ancient Greece. Common practices consisted of the following. Hiding etched messages in wooden tablets covered with wax.
+	<p>Steganography is the art and science of hiding information by embedding messages within other medium, such as an image, video, song, and so forth. Steganography has been used since times of Ancient Greece. Common practices consisted of the following. Hiding etched messages in wooden tablets covered with wax. </p>
 
-<img src="{{ site.baseurl }}/images/WaxTablet.jpg" alt="Wax Tablet Message" style="width: 350px;"/><img src="{{ site.baseurl }}/images/slavehad.jpg" alt="Slave Head Message" style="width: 350px;"/>
+	<img src="{{ site.baseurl }}/images/WaxTablet.jpg" align="middle"> </img>
 
-	 and a slave's head by tattooing and letting hair grow back.</p>
+	 <p>and a slave's head by tattooing and letting hair grow back.</p>
+
+	<img src="{{ site.baseurl }}/images/slavehad.jpg" align="middle"> </img>
 
 	<p>
-	The term was first used in 1499 by Johannes Trithemius when he disguised his book Steganographia as a book on magic as seen below.
-
-<img src="{{ site.baseurl }}/images/steganographia.jpg" alt="Steganographia book" style="width: 350px;"/>
+	The term was first used in 1499 by Johannes Trithemius when he disguised his book Steganographia as a book on magic.
 	</p>
+
+	<img src="{{ site.baseurl }}/images/steganographia.jpg" align="middle"> </img>
 
 	<p>
 	Steganography, unlike cryptography, is not about encrypting a message. Cryptography is the science of writing secret codes. However, in many cases, encrypted messages raise interest and will get people to solve it. However, in steganography, messages are hidden from plain sight, and therefore communication is more safe. Steganography is often used together with encryption to ensure safe communication.
@@ -30,7 +28,7 @@ src="https://youtu.be/ekvaqrEsEK0">
 	<p>
 	Some major categories of steganography include physical and digital areas. Some examples of physical steganography include the use of invisible ink, and weaving morse code into clothing, both widely used during World War II.</p>
 
-<img src="{{ site.baseurl }}/images/Lemon-Juice-Invisible-Ink.jpg" alt="Lemon Juice Invisible Ink" style="width: 350px;"/>
+	<img src="{{ site.baseurl }}/images/Lemon-Juice-Invisible-Ink.jpg" align="middle"> </img>
 
 	<p> Digital steganography was first introduced in 1985 as computers rose to prominence. Main methods included concealing messages within the lowest bits of noisy images or sound files, and embedding pictures in video material that was visible when played at slower speeds.
 	</p>
