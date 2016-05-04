@@ -17,6 +17,7 @@ Below are the images equivalent to Delta, Cosine, Sinc, and Box functions. To br
 Taking the fourier transform of those images result in images which are two dimensional equivalent of the fourier transform pairs for the Delta, Cosine, Sinc and Box functions. 
 
 ![Fourier Transform pairs in Two Dimensions]({{ site.baseurl }}/images/fourier_transform_pair.PNG "Fourier Transform Pairs in Two Dimensions")
+*Fourier Transform Pairs in Two Dimensions*
 
 The fourier transform pair of the:
 
@@ -41,3 +42,4 @@ On the other hand, the high pass filter works like an edge detector.
 (Edge = sharp transition of the pixel values = high frequency component)
 
 ![Image Filtering]({{ site.baseurl }}/images/fourier_filter.PNG "Image Filtering")
+*Image Filtering Examples. First is the original image, second is the low passed image, and the third is the high passed image.*
