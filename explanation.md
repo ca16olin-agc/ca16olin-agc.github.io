@@ -14,7 +14,7 @@ One possible way for encoding message in image is by replacing values in the ima
 We can apply IDCT and get the values in the encoded area. Then, we convert the values to characters to get the message.
 
 #### Example
-<center>![Example Cat Image]({{ site.baseurl }}/images/catdemo.png "Example Cat Image")</center>
+<center><img src = "{{ site.baseurl }}/images/catdemo.png" alt = "cat picture"></center>
 
 <center><i>Example of hiding message to an image</i></center>
 
