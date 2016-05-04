@@ -15,7 +15,7 @@ We can apply IDCT and get the values in the encoded area. Then, we convert the v
 
 #### Example
 ![Example Cat Image]({{ site.baseurl }}/images/catdemo.png "Example Cat Image")
-* Example of hiding message to an image *
+*Example of hiding message to an image*
 Above shows an example of encoding message to an image. The first photo is the original image, and below is the fourier transformed version of the image. In order to create least amount of damage to the image, we selected mid-frequency range to hide the information. Altering low frequency component of the image will distort the information showing the general trend, while altering high frequency component will distort the sharp transition points of the image. Thus, selecting a mid-range frequency makes sense.
 
 After encoding the message to the fourier transformed image, we invert it back to original spatial domain, giving the image with encoded message on the top right. You see the image has a little bit of distortion, but is not so much different from the original image, showing successful hiding of information.
