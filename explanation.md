@@ -14,7 +14,7 @@ One possible way for encoding message in image is by replacing values in the ima
 We can apply IDCT and get the values in the encoded area. Then, we convert the values to characters to get the message.
 
 #### Example
-![Example Cat Image]({{ site.baseurl }}/images/catdemo.PNG "Example Cat Image")
+![Example Cat Image]({{ site.baseurl }}/images/catdemo.png "Example Cat Image")
 ** Example of hiding message to an image **
 Above shows an example of encoding message to an image. The first photo is the original image, and below is the fourier transformed version of the image. In order to create least amount of damage to the image, we selected mid-frequency range to hide the information. Altering low frequency component of the image will distort the information showing the general trend, while altering high frequency component will distort the sharp transition points of the image. Thus, selecting a mid-range frequency makes sense.
 
