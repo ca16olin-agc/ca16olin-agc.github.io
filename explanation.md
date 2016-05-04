@@ -3,7 +3,7 @@ layout: page
 title: How does it work?
 permalink: /explanation/
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" align="middle"></script>
 
 ![Flow Chart]({{ site.baseurl }}/images/exp_flowchart.PNG "Flow Chart")
 
@@ -21,7 +21,7 @@ permalink: /explanation/
 
 
 #### Why DCT?
-<img src="{{ site.baseurl }}/images/dctvsfft.gif">
+<img src="{{ site.baseurl }}/images/dctvsfft.gif" align="middle">
 
 DCT is similar to the Fast Fourier Transform (FFT), but can approximate lines well with fewer coefficients. [4]
 
