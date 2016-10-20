@@ -3,40 +3,24 @@ layout: default
 ---
 <div>
 
-<h2>
-An Introductory Video Overviewing our Project Topic
-</h2>
-
 <p>
-Below is a quick video that covers the basic concept of steganography, 2-d Fourier Transformation, and our demonstration.	
+<em>An Introductory Video Overviewing our Project Topic</em>
 </p>
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/ekvaqrEsEK0?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ekvaqrEsEK0?rel=0" frameborder="0" allowfullscreen></iframe>
 
 	<h2>An Introduction: Steganography</h2>
 	
-	<p>Steganography is the art and science of hiding information by embedding messages within other medium, such as an image, video, song, and so forth. Steganography has been used since times of Ancient Greece. Common practices consisted of the following. Hiding etched messages in wooden tablets covered with wax
+	<p>Steganography is the art and science of hiding information by embedding messages within other medium, such as an image, video, song, and so forth. Steganography has been used since times of Ancient Greece. Common practices consisted of the following. Hiding etched messages in wooden tablets covered with wax.
+
+<img src="{{ site.baseurl }}/images/WaxTablet.jpg" alt="Wax Tablet Message" style="width: 350px;"/><img src="{{ site.baseurl }}/images/slavehad.jpg" alt="Slave Head Message" style="width: 350px;"/>
+
 	 and a slave's head by tattooing and letting hair grow back.</p>
-<center>	 
-<figure>
-  <img src="{{ site.baseurl }}/images/WaxTablet.jpg" alt="Wax Tablet Message" style="width: 300px;"/>
-  <figcaption> Wax Tablet with secret message</figcaption>
-</figure></center>
-<center><figure>
-  <img src="{{ site.baseurl }}/images/slavehad.jpg" alt="Slave Head Message" style="width: 300px;"/>
-  <figcaption> Shaved slave's head holding secret message</figcaption>
-</figure></center>
-	
+
 	<p>
 	The term was first used in 1499 by Johannes Trithemius when he disguised his book Steganographia as a book on magic as seen below.
 </p>
-
-<center>
-<figure>
-  <img src="{{ site.baseurl }}/images/steganographia.jpg" alt="Steganographia book" style="width: 180px;"/>
-  <figcaption> Steganographia, by Johannes Trithemius in 1499</figcaption>
-</figure> </center>
-
+<img src="{{ site.baseurl }}/images/steganographia.jpg" alt="Steganographia book" style="width: 230px;"/>
 	
 
 	<p>
@@ -46,13 +30,7 @@ Below is a quick video that covers the basic concept of steganography, 2-d Fouri
 	<p>
 	Some major categories of steganography include physical and digital areas. Some examples of physical steganography include the use of invisible ink, and weaving morse code into clothing, both widely used during World War II.</p>
 
-<center>
-<figure>
 <img src="{{ site.baseurl }}/images/Lemon-Juice-Invisible-Ink.jpg" alt="Lemon Juice Invisible Ink" style="width: 350px;"/>
-  <figcaption> Famous example of steganography, invisible lemon juice ink</figcaption>
-</figure></center>
-
-
 
 	<p> Digital steganography was first introduced in 1985 as computers rose to prominence. Main methods included concealing messages within the lowest bits of noisy images or sound files, and embedding pictures in video material that was visible when played at slower speeds.
 	</p>
