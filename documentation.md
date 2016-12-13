@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentation
-permalink: /documentation/
+permalink: /documentation
 ---
 
 ## Computers of Space Exploration: Why it Matters
