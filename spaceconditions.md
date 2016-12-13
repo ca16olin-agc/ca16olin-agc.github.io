@@ -19,6 +19,4 @@ test
 
 test
 
-## Power
-
-<a href = '{{ site.baseurl }}/spaceconditions/power'> ## Power</a>
+<a href = '{{ site.baseurl }}/spaceconditions/power'> Power</a>
