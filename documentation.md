@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Image Processing
-permalink: /image_processing/
+title: Documentation
+permalink: /documentation/
 ---
 
 ## Computers of Space Exploration: Why it Matters
