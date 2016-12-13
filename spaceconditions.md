@@ -6,17 +6,16 @@ permalink: /spaceconditions/
 
 ## Thermal
 
+<a href = '{{ site.baseurl }}/spaceconditions/thermal'>
 Space electronics are subjected to harsh environmental conditions and they must be able to withstand extreme temperatures or high temperature variations, specific to their mission. 
-
-test
-
-test
-
-<a href = '{{ site.baseurl }}/spaceconditions/thermal'>Thermal</a>
+</a>
 
 
 ## Radiation
 
-test
+<a href = '{{ site.baseurl }}/spaceconditions/radiation'>Radiation</a>
 
-<a href = '{{ site.baseurl }}/spaceconditions/power'> Power</a>
+
+## Power
+
+<a href = '{{ site.baseurl }}/spaceconditions/power'>Power</a>
