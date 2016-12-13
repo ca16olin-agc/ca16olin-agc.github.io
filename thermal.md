@@ -39,3 +39,11 @@ The performance of certain semiconductor devices improves with decreasing temper
 
 ## High Temperature Variation
 Satellite Orbiting the Earth experience high temperature temperature variation ranging from >120°C on the side facing the sun, to <-150°C on the shadow side. 
+
+
+
+### Requirements
+- Electronics capable of operation
+- High reliabililty 
+- Long life time
+- Improved energy density and system efficiency
