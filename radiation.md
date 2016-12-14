@@ -22,14 +22,14 @@ Heavy ions are the primary concern when considering the effects of cosmic rays o
 Total Ionizing Dose (TID)
 
 Single Event Effect (SEE)
-	- Single Event Latch-Up (SEL)
-	- Single Event Upset (SEU)
-	- Single Event Transient (SET)
-	- Single Event Functional Interrupt (SEFI)
+- Single Event Latch-Up (SEL)
+- Single Event Upset (SEU)
+- Single Event Transient (SET)
+- Single Event Functional Interrupt (SEFI)
 
 Other Radiation Effect 
-	- Prompt Dose/ Dose Rate
-	- Neutron Single Event Upset
+- Prompt Dose/ Dose Rate
+- Neutron Single Event Upset
 
 TID, SEL and SEU are most commonly used to show how resistant an electronic device is against radiation
 
