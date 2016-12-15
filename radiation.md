@@ -51,7 +51,7 @@ Shield electronics in enclosures made of lead/ very dense materials to help prot
 
 ### Radiation Hardening Technique
 
-1. Insulating Substrate
+1.Insulating Substrate
 Manufacture hardened chips on insulating substrate instead of semiconductor wafer. Insulating substrate enables chips to withstand more radiation, many orders of magnitude greater that commercial chips, which can withstand 5 to 10 krad. Some examples of insulating substrate include Silicon on insulator (SOI) and Silicon on sapphire (SOS).
 
 <center>	 
@@ -61,20 +61,27 @@ Manufacture hardened chips on insulating substrate instead of semiconductor wafe
 </figure>
 </center>
 
-2. Bipolar IC
+
+2.Bipolar IC
 Bipolar IC generally have higher tolerance to radiation than CMOS circuits.
 
-3. Magnetoresistive RAM (MRAM)
+
+3.Magnetoresistive RAM (MRAM)
 MRAM data is stored in magnetic state, rather than electronic charge, resulting in longer data retention and reduction in power. Early tests suggest that MRAM is not susceptible to ionization induced data loss.
 
-4. Shielding
-- shielding the package
-Shielding reduces the intensity of radiation depending on the thickness. 
 
-- shielding the chips
-Boron-10 readily captures neutrons and undergoes alpha decay. Chips can be protected by shilded using depleted boron (isotope boron-11).
+4.Shielding
 
-5. Static Random Access Memory (SRAM)
+Shielding the package
+
+- Shielding reduces the intensity of radiation depending on the thickness. 
+
+Shielding the chips
+
+- Boron-10 readily captures neutrons and undergoes alpha decay. Chips can be protected by shilded using depleted boron (isotope boron-11).
+
+
+5.Static Random Access Memory (SRAM)
 SRAM is more rugged than capacitor based Dynamic Random Access Memory (DRAM). However, it is larger and more expensive.
 
 <center>	 
@@ -93,8 +100,22 @@ SRAM vs DRAM
 | less density/memory per chip                        | higher density/memory per chip                              |
 | higher cost per bit                                 | lower cost per bit                                          |
 | stores data till power is supplied                  | stores data for few milliseconds    
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Salary</th>
+</tr>
+<tr>
+<td>Ramesh Raman</td>
+<td>5000</td>
+</tr>
+<tr>
+<td>Shabbir Hussein</td>
+<td>7000</td>
+</tr>
+</table>
 
-6. Wide bandgap semiconductors (WBG)
+6.Wide bandgap semiconductors (WBG)
 Substrate with wide band gap gives higher tolerance to deep level defects. WBG has emerged as front-running solution to the slow-down in silicon in the high power, high temperature segments. WBG has better conduction and can produce smaller, faster and more efficient devices. Example of WBG includes silicon carbide (SiC) and gallium nitride (GaN)
 
 <center>	 
