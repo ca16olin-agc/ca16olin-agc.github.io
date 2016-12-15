@@ -7,7 +7,7 @@ permalink: /history
 In this part of the website, we will discuss notable spacecrafts that have implemented computer architectures that countered the harsh conditions of space. Feel free to click on any of the links that will give you more information on the specific spacecraft.
 
 
-## 1977: 
+# 1977: 
 
 The Voyager program was launched in 1977 to explore the further planets from the solar system while the alignments of Jupiter, Saturn, Uranus, and Neptune were efficient for travel. Two probes were launched and are still in operation.
 
@@ -18,7 +18,7 @@ The Voyager program was launched in 1977 to explore the further planets from the
 The Voyager program has 2 probes still in extended mission and are both around 16 billion miles away from earth. Redundancy management was a great theme in the Voyager computers as they each had 3 different computer types with 2 of each kind.
 
 
-## 2004:
+# 2004:
 
 Spirit 
 - Launch: June 10 2003
@@ -64,7 +64,7 @@ Usually the RAD6000 has selectable clock frequency options of 33MHz and 66MHz. H
 #### Development History
 RAD6000 was succeeded by RAD750, which was produced from 2001 and used in variety of spacecrafts from 2005 to 2012. RAD750 is succeeded by RAD5500.
 
-## 2006-2026:
+# 2006-2026:
 
 New Horizons, launched in 2006, was designed for interplanetary travel. The spacecraft had two major computer system. One for commanding and data handling, and the other for guidance and control processing. The chips and circuits used in the computer are radiation hardened (MIPS R3000 CPU). Redundancy management is also present, as multiple clocks and timing routines are implemented to prevent errors in the computer process.
 
