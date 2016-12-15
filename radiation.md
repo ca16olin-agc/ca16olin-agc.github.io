@@ -31,7 +31,7 @@ Other Radiation Effect
 - Prompt Dose/ Dose Rate
 - Neutron Single Event Upset
 
-TID, SEL and SEU are most commonly used to show how resistant an electronic device is against radiation
+TID, SEL and SEU are most commonly used to show how resistant an electronic device is against radiation.
 
 
 ## Radiation Hardening
@@ -44,10 +44,67 @@ Due to the extensive development and testing required to produce a radiation-tol
 Radiation hardened electronics contain extra transistors that take more energy to switch on and off, so that the cosmic rays can’t trigger them too easily. However, they are more expensive, power consuming and slow.
 
 ### How to hardened against radiation
-Process insulators so that there are fewer defects, which reduces the number of sites where positive charges can be trapped
+Process insulators so that there are fewer defects, which reduces the number of sites where positive charges can be trapped.
 
 Dope regions between transistors to make devices more resistant to the effects of radiation
-Shield electronics in enclosures made of lead/ very dense materials to help protect the electronics from radiation 
+Shield electronics in enclosures made of lead/ very dense materials to help protect the electronics from radiation. 
+
+### Radiation Hardening Technique
+
+1. Insulating Substrate
+Manufacture hardened chips on insulating substrate instead of semiconductor wafer. Insulating substrate enables chips to withstand more radiation, many orders of magnitude greater that commercial chips, which can withstand 5 to 10 krad. Some examples of insulating substrate include Silicon on insulator (SOI) and Silicon on sapphire (SOS).
+
+<center>	 
+<figure>
+  <img src="{{ site.baseurl }}/images/semiconductorwafer.png" alt="Semiconductor Wafer" style="width: 300px;"/>
+  <figcaption>Semiconductor Wafer</figcaption>
+</figure>
+</center>
+
+2. Bipolar IC
+Bipolar IC generally have higher tolerance to radiation than CMOS circuits.
+
+3. Magnetoresistive RAM (MRAM)
+MRAM data is stored in magnetic state, rather than electronic charge, resulting in longer data retention and reduction in power. Early tests suggest that MRAM is not susceptible to ionization induced data loss.
+
+4. Shielding
+- shielding the package
+Shielding reduces the intensity of radiation depending on the thickness. 
+
+- shielding the chips
+Boron-10 readily captures neutrons and undergoes alpha decay. Chips can be protected by shilded using depleted boron (isotope boron-11).
+
+5. Static Random Access Memory (SRAM)
+SRAM is more rugged than capacitor based Dynamic Random Access Memory (DRAM). However, it is larger and more expensive.
+
+<center>	 
+<figure>
+  <img src="{{ site.baseurl }}/images/sramdram.png" alt="SRAM and DRAM" style="width: 300px;"/>
+  <figcaption>SRAM and DRAM</figcaption>
+</figure>
+</center>
+
+SRAM vs DRAM
+| SRAM                                                | DRAM                                                        |
+|-----------------------------------------------------|-------------------------------------------------------------|
+| uses an array of 6 transistors for each memory cell | uses a transistor and a capacitor to store each bit of data |
+| faster data access                                  | slower data access                                          |
+| consumes more power                                 | consumes less power                                         |
+| less density/memory per chip                        | higher density/memory per chip                              |
+| higher cost per bit                                 | lower cost per bit                                          |
+| stores data till power is supplied                  | stores data for few milliseconds    
+
+6. Wide bandgap semiconductors (WBG)
+Substrate with wide band gap gives higher tolerance to deep level defects. WBG has emerged as front-running solution to the slow-down in silicon in the high power, high temperature segments. WBG has better conduction and can produce smaller, faster and more efficient devices. Example of WBG includes silicon carbide (SiC) and gallium nitride (GaN)
+
+<center>	 
+<figure>
+  <img src="{{ site.baseurl }}/images/wbg.png" alt="wbg" style="width: 300px;"/>
+  <figcaption>Energy Bandgap</figcaption>
+</figure>
+</center>
+
+WBG materials are has relatively wider energy bandgap compared to conventional silicon. The electronic bandgap is the energy gap between the top of the valence band and the bottom of the conduction band in solid materials. Electrons can jump the gap to the conduction band by means of thermal or optical excitation. Insulators are materials with very large bandgaps, typically greater than 4 electronvolts (eV), and high resistivity. Bandgap allows semiconductor devices to partially conduct and gives semiconductors the ability to switch currents on and off as desired in order to achieve a given electrical function. A higher energy bandgap imparts characteristics that make WBG materials superior to silicon as a semiconductor. WBG-based devices tolerate much higher operating temperatures in a smaller size than the equivalent silicon-based device, enabling previously impossible applications. Silicon possesses a bandgap of 1.1 eV while SiC and GaN have a bandgap of 3.3 eV and 3.4 eV respectively. 
 
 ### Radiation Hardened Electronics
 
