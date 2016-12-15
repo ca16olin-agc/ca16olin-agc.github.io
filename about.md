@@ -123,6 +123,9 @@ Space mission analysis and design
 
 
 [26] http://libcat.olin.edu/O90005/OPAC/Details/Record.aspx?
-IndexCode=15&TaskCode=483458&HitCount=1&CollectionCode=2&SortDirection=Ascending&CurrentPage=1&CurrentLinkCode=MO90005|207117971|1|7897474&SelectionType=0&SearchType=2&BibCode=MO90005|207117971|1|7897474
+IndexCode=15&TaskCode=483458&HitCount=1&CollectionCode=2&Sort
+Direction=Ascending&CurrentPage=1&CurrentLinkCode=MO90005|207
+117971|1|7897474&SelectionType=0&SearchType=2&BibCode=MO90005
+|207117971|1|7897474
 Fundamentals of space systems textbook. From Olin Catalog.
 
