@@ -53,6 +53,7 @@ To anyone who is reading our story, we welcome and challenge you to continue on 
 
 To future Computer Architecture students (or anybody else) who wants to delve into more research, we recommend that you use extensively the resources at your disposal. Our team discovered that the Olin Library database had an amazing collection of information that became the core of our project. During our research, we also discovered interesting sites such as a website dedicated to the AGC developed by an Olin alumni. It is important to remember that Olin has a lot of resources and connections despite its size.
 
+An interesting implementation would be developing a circuit that introduces error into the CPU. For example, students may use the random function in verilog to generate error into some part of the computation process (For example, the ALU operations), and develop a circuit to counter that error. Such error can be countered by information redundancy, structural redundancy, and time redundancy. Afterwards, students may compare the time cost, and area cost of each implementation.
 
 To the students who want to implement a redundancy management system demo, we recommend that you start out simple and not try and copy a space computer that you find online. Although the architecture of older space exploration computers are simpler than many today, they are still more complicated than the CPU implementations students have gone through in a standard Computer Architecture course. 
 
