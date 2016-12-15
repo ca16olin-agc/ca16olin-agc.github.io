@@ -155,3 +155,7 @@ Direction=Ascending&CurrentPage=1&CurrentLinkCode=MO90005|207
 
 Fundamentals of space systems textbook. From Olin Catalog.
 
+
+[27] ftp://doc.nit.ac.ir/cee/y.baleghi/Fault-Tolerant/Books/fault-tolerant-systems.pdf
+
+Israel Koren, C.Mani Krishna, Fault-Tolerant Systems
