@@ -4,11 +4,13 @@ title: Spirit and Opportunity Rovers
 permalink: /history/spiritrovers
 ---
 
-Spirit Launch: June 10 2003
-Spirit Land: January 3 2004
+Spirit 
+- Launch: June 10 2003
+- Land: January 3 2004
 
-Opportunity Launch: July 7 2003
-Opportunity Land: January 24 2004
+Opportunity 
+- Launch: July 7 2003
+- Land: January 24 2004
 
 ### Background
 Spirit and Opportunity Mars rovers conduct field geology and make atmospheric observation. They weight nearly 180kg and far exceeded their initial 90 day warranties on Mars.
