@@ -82,8 +82,10 @@ Introduction to Radiation-Resistant Semiconductor Devices and Circuits
 
 [15] http://www.intechopen.com/books/aerospace-technologies-advancements/design-of-low-cost-telecommunications-cubesat-class-spacecraft
 Design of Low-cost Telecommunications CubeSat-class Spacecraft
+
 [16] http://www.datarespons.com/electronics-in-space/
 This article discusses the challenges that space microelectronics circuits have to face, evaluating the latest trends and developments and especially focusing on reprogrammable circuits.
+
 [17] http://www.extremetemperatureelectronics.com/tutorial1.html
 Introduction to extreme temperature electronics
 
