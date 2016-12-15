@@ -22,13 +22,19 @@ Heavy ions are the primary concern when considering the effects of cosmic rays o
 Total Ionizing Dose (TID)
 
 Single Event Effect (SEE)
+
 - Single Event Latch-Up (SEL)
+
 - Single Event Upset (SEU)
+
 - Single Event Transient (SET)
+
 - Single Event Functional Interrupt (SEFI)
 
 Other Radiation Effect 
+
 - Prompt Dose/ Dose Rate
+
 - Neutron Single Event Upset
 
 TID, SEL and SEU are most commonly used to show how resistant an electronic device is against radiation.
@@ -92,26 +98,39 @@ SRAM is more rugged than capacitor based Dynamic Random Access Memory (DRAM). Ho
 </center>
 
 SRAM vs DRAM
-| SRAM                                                | DRAM                                                        |
-|-----------------------------------------------------|-------------------------------------------------------------|
-| uses an array of 6 transistors for each memory cell | uses a transistor and a capacitor to store each bit of data |
-| faster data access                                  | slower data access                                          |
-| consumes more power                                 | consumes less power                                         |
-| less density/memory per chip                        | higher density/memory per chip                              |
-| higher cost per bit                                 | lower cost per bit                                          |
-| stores data till power is supplied                  | stores data for few milliseconds    
-<table border="1">
+
+<table border="2">
 <tr>
-<th>Name</th>
-<th>Salary</th>
+<th>SRAM</th>
+<th>DRAM</th>
 </tr>
 <tr>
-<td>Ramesh Raman</td>
-<td>5000</td>
+<td>uses an array of 6 transistors for each memory cell</td>
+<td>uses a transistor and a capacitor to store each bit of data</td>
 </tr>
 <tr>
-<td>Shabbir Hussein</td>
-<td>7000</td>
+<td>faster data access</td>
+<td>slower data access</td>
+</tr>
+</tr>
+<tr>
+<td>consumes more power</td>
+<td>consumes less power</td>
+</tr>
+</tr>
+<tr>
+<td>less density/memory per chip</td>
+<td>higher density/memory per chip</td>
+</tr>
+</tr>
+<tr>
+<td>higher cost per bit</td>
+<td>lower cost per bit</td>
+</tr>
+</tr>
+<tr>
+<td>stores data till power is supplied</td>
+<td>stores data for few milliseconds</td>
 </tr>
 </table>
 
