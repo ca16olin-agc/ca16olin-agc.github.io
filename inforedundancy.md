@@ -23,3 +23,5 @@ In this case, X would be 0, Y would be 1, and Z would be 1 in order for the stat
 
 
 The receiver receives the signal, and double checks the equations above. If there is only one error, the system can locate the error going backwards through the failed equations. With complicated logic using xor gates, this is also able to correct single errors. This makes the Hamming Code much more useful.
+
+![Hamming Example](/images/hamming_ex2.png "Hamming Example")
