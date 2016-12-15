@@ -92,7 +92,7 @@ SRAM is more rugged than capacitor based Dynamic Random Access Memory (DRAM). Ho
 
 <center>	 
 <figure>
-  <img src="{{ site.baseurl }}/images/sramdram.png" alt="SRAM and DRAM" style="width: 300px;"/>
+  <img src="{{ site.baseurl }}/images/sramdram.png" alt="SRAM and DRAM" style="width: 500px;"/>
   <figcaption>SRAM and DRAM</figcaption>
 </figure>
 </center>
@@ -112,21 +112,17 @@ SRAM vs DRAM
 <td>faster data access</td>
 <td>slower data access</td>
 </tr>
-</tr>
 <tr>
 <td>consumes more power</td>
 <td>consumes less power</td>
-</tr>
 </tr>
 <tr>
 <td>less density/memory per chip</td>
 <td>higher density/memory per chip</td>
 </tr>
-</tr>
 <tr>
 <td>higher cost per bit</td>
 <td>lower cost per bit</td>
-</tr>
 </tr>
 <tr>
 <td>stores data till power is supplied</td>
@@ -139,7 +135,7 @@ Substrate with wide band gap gives higher tolerance to deep level defects. WBG h
 
 <center>	 
 <figure>
-  <img src="{{ site.baseurl }}/images/wbg.png" alt="wbg" style="width: 300px;"/>
+  <img src="{{ site.baseurl }}/images/wbg.png" alt="wbg" style="width: 500px;"/>
   <figcaption>Energy Bandgap</figcaption>
 </figure>
 </center>
